@@ -1,0 +1,130 @@
+@charset "gb2312";
+/* CSS Document */
+
+body { font: normal 100% "Î¢ÈíÑÅºÚ", Arial, Helvetica, sans-serif; color: #232323; background:#FFF url(../images/bg.jpg) center top no-repeat; font-size:14px; margin:0; padding:0; -webkit-text-size-adjust: none; height:1000px; overflow:auto;}
+a { text-decoration: none; color: #3f3a39; border:none; }
+.clear { clear: both; }
+h1, h2, h3, h4,form{ margin: 0; padding: 0; }
+ul, li, dl, dt, dd { margin:0; padding:0; list-style:none; }
+img { border:none; }
+.clear{ clear:both; width:100%; height:0; font-size:0; line-height:0;}
+.IndexBox{ width:100%; height:1000px; background:url(../images/bgi.jpg) center top no-repeat; position:relative;}
+.HeaderBox{ width:1084px; margin:0 auto; font-size:15px; padding:0 58px; position:relative;}
+.TopYuLink{ position:absolute; right:58px; top:70px; font-size:12px; }
+.TopYuLink a{ margin-left:7px;}
+.HeaderBox .NavUl{ background:url(../images/nav_bot.png) center bottom no-repeat; padding:90px 0 0; height:45px;}
+.HeaderBox li{ float:left; height:auto; min-height:45px; line-height:45px; margin-right:42px; font-weight:bold; position:relative; z-index:9998;}
+.HeaderBox li.righ{ margin-right:0; margin-left:84px; display:inline;}
+.HeaderBox li.fst{ margin-left:312px;}
+.HeaderBox li.lst{ margin-left:85px;}
+
+.HeaderBox .NavUl li dl{ position:absolute; top:40px; left:0px; line-height:30px; font-size:14px; padding-top:13px;  z-index:9999; background:url(../images/secbg.png); width:300px; visibility:hidden;}
+.HeaderBox .NavUl li:hover dl,.HeaderBox .NavUl a:hover dl{ visibility:visible;}
+.HeaderBox .NavUl li dd{ height:30px; display:block; overflow:hidden; background:url(../images/secbg.png); }
+.HeaderBox .NavUl li.hover dl{ display:block; visibility:visible;}
+
+.IndexBox .HeaderBox{ width:1064px;}
+.IndexBox .NavUl{ background-image:url(../images/nav_bots.png); padding-top:25px;}
+.IndexBox li.fst{ margin-left:292px}
+.IndexBox .TopYuLink{ top:10px;}
+
+.LogoArea{ width:572px; margin:0 auto; height:131px; padding-top:140px; margin-bottom:65px;}
+.IcoArea{ width:1000px; margin:0 auto 0px; overflow:auto; position:relative; height:250px; background:url(../images/ico_line.png) center 105px no-repeat;}
+.IcoArea li{ display:inline-block; position:absolute; top:0; left:0; z-index:100;}
+.IcoArea li.ico_i1{ left:60px; top:125px;}
+.IcoArea li.ico_i2{ left:173px; top:53px;}
+.IcoArea li.ico_i3{ left:287px; top:125px;}
+.IcoArea li.ico_i4{ left:434px; top:10px;}
+.IcoArea li.ico_i5{ left:610px; top:125px;}
+.IcoArea li.ico_i6{ left:725px; top:53px;}
+.IcoArea li.ico_i7{ left:840px; top:125px;}
+
+.ChanYe{ width:1095px;}
+.ChanYe li img{ width:119px; height:119px;}
+.ChanYe .ico_i4 img{ width:160px; height:160px;}
+.ChanYe li.ico_i1{ left:10px; top:165px;}
+.ChanYe li.ico_i2{ left:144px; top:68px;}
+.ChanYe li.ico_i3{ left:279px; top:165px;}
+.ChanYe li.ico_i4{ left:463px; top:10px;}
+.ChanYe li.ico_i5{ left:694px; top:165px;}
+.ChanYe li.ico_i6{ left:830px; top:68px;}
+.ChanYe li.ico_i7{ left:965px; top:165px;}
+
+.CopyIndex{ width:1084px; margin:0 auto; text-align:center; font-size:12px; font-weight:bold; color:#3f3a39;}
+
+.InWarpBox{ width:100%; height:100%; overflow:auto; }
+.HeaderLog{ width:251px; height:57px; position:absolute; left:50%; margin-left:-127px; top:93px; text-align:center; height:210px; line-height:210px; top:0;}
+.HeaderLog img{ vertical-align:middle;}
+.MainBox{ width:1007px; margin:0 auto; padding:63px 39px 25px;}
+.MainBox .MainTit{ color:#9b9b9b; font-size:55px; padding-left:85px; padding-bottom:15px;}
+.MainBox .MainMid{ position:relative;}
+.MainBox .MainMid .LeftZ{ position:absolute; left:-36px; top:58px;}
+.MainBox .MainMid .RighZ{ position:absolute; right:38px; top:-53px;}
+.MainBox .MainMidTop{ height:55px;}
+.MainBox .MainMidBot{ height:109px;}
+.MainBox .MainMidCen{ min-height:443px; background:url(../images/mainbg_mid.png) left top repeat-y; padding:0 70px; line-height:20px; color:#272727; font-size:12px; padding-bottom:25px;}
+
+.TuanItem{ border-bottom:dashed 1px #999898; margin-bottom:45px; padding-bottom:25px;}
+.TuanItem.lst{ border:none; margin:0; padding:0;}
+.TuanItem .TuanTit{ color:#9b9b9b; font-size:47px; text-align:right; line-height:50px; padding-right:25px; padding-bottom:25px;}
+.TuanItem .TuanImg{ float:left; padding-right:20px;}
+.TuanItem .TuanImg img{ -moz-border-radius: 130px; -webkit-border-radius: 130px; border-radius:130px; border:#53a4e5 3px solid; width:225px; height:225px;}
+.TuanItem .TuanDeil{ float:right; width:500px; padding-right:20px;}
+.TuanItem .TuanDeil h2{ font-size:30px; color:#272727; line-height:50px; font-weight:400;}
+
+.TuanImgList{}
+.TuanImgList .TuanItemLine{ text-align:center;}
+.TuanImgList .TuanItemLine label{ margin:5px; display:inline-block;}
+.TuanImgList .TuanItemLine label img{ cursor:pointer;}
+
+.NewsListBox{ background:url(../images/newsbg.png) center center no-repeat; padding:25px 110px;}
+.NewsListBox li{ line-height:37px; padding-left:16px; background:url(../images/li.png) left center no-repeat; font-size:14px;}
+.NewsListBox li a:hover{ color:#4086b1;}
+.PageArea{ text-align:right; font-size:14px; padding-top:30px;}
+.PageArea a{ margin:0 3px;}
+
+.ChanYeView{}
+.ChanYeViewTop{ padding-bottom:35px;}
+.ChanYeViewTopLeft{ float:left; width:414px; height:298px; overflow:hidden;}
+.ChanYeViewTopRigh{ float:left; width:405px; padding-left:30px; color:#272727;}
+.ChanYeViewTopRigh h1{ font-size:30px; font-weight:400; line-height:40px; padding-top:15px;}
+.ChanYeViewTopRigh p{ line-height:25px; font-size:16px;}
+.ChanYeViewMain{}
+
+.ContactView{}
+.ContactViewTop{ padding-bottom:35px;}
+.ContactViewTopLeft{ float:left; width:456px; height:376px; overflow:hidden;}
+.ContactViewTopRigh{ float:left; width:380px; padding-left:10px; color:#272727; overflow:hidden;}
+.ContactViewTopRigh h2{ font-size:20px; font-weight:400; line-height:30px; padding-top:0px;}
+.ContactViewTopRigh p{ line-height:25px; font-size:12px;}
+
+.JiaRuView{}
+.JiaRuViewLeft{ float:left; width:260px; height:450px; overflow:hidden;}
+.JiaRuViewLeft li{ height:32px; line-height:32px; font-size:15px; padding-left:20px; background:url(../images/li.png) left center no-repeat;}
+.JiaRuViewRigh{ float:right; width:550px; padding-left:10px; color:#272727; overflow:hidden;}
+.JiaRuViewRigh h2{ font-size:20px; font-weight:400; line-height:30px; padding-top:0px; margin-bottom:20px;}
+.JiaRuViewRigh h3{ font-weight:400;}
+.JiaRuViewRigh p{ line-height:34px; font-size:12px; text-indent:0px; padding:0; margin:0; margin-bottom:10px; margin-top:10px;}
+.JiaRuViewMid{ width:0; height:310px; border-left:solid #999898 1px; margin-top:60px; float:left;}
+.JiaRuViewRigh .ViewMain{ position:relative;}
+.JiaRuViewRigh .ViewMain p{ line-height:30px;}
+.JiaRuViewRigh .JiaRuBtn{ position:absolute; right:10px; top:0; text-align:right;}
+.JiaRuViewRigh .JiaRuBtn a{ color:#FFF; background:url(../images/jiabtn.png) center center no-repeat; display:inline-block; width:89px; height:24px; line-height:20px; text-align:center; margin-right:10px; font-size:12px;}
+.JiaRuForm{ padding-top:0px;}
+.JiaRuForm .FormLine{}
+.JiaRuForm .FormLine label{ display:block; line-height:30px; color:#272727; font-size:12px;}
+.JiaRuForm .FormLine .input{ width:265px; height:30px; padding:0 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;  border-radius:5px; border:#c8c8c8 solid 1px; outline:none; -moz-box-shadow:0 0 10px 2px #ccc; -webkit-box-shadow:0 0 10px 2px #ccc; box-shadow:0 0 10px 2px #ccc; }
+.JiaRuForm .FormLine .input.JobTxt{ width:174px;}
+.JiaRuForm .FormLine .input.NameTxt{ width:80px;}
+.JiaRuForm .FormLine select{ padding:2px 5px; margin-right:5px;}
+.JiaRuForm .FormLine textarea{ width:355px; height:85px; padding:5px; resize:none; -moz-border-radius: 5px; -webkit-border-radius: 5px;  border-radius:5px; border:#c8c8c8 solid 1px; outline:none; -moz-box-shadow:0 0 10px 2px #ccc; -webkit-box-shadow:0 0 10px 2px #ccc; box-shadow:0 0 10px 2px #ccc;}
+.JiaRuForm .FormLine .TiJiaoBtn{ background:#999898; padding:6px 15px; border:none; -moz-border-radius: 5px; -webkit-border-radius: 5px;  border-radius:5px; outline:none; -moz-box-shadow:0 0 10px 2px #ccc; -webkit-box-shadow:0 0 10px 2px #ccc; box-shadow:0 0 10px 2px #ccc; margin:15px 10px; color:#FFF; font-size:14px;}
+.JiaRuForm .FormLine .TiXianBtn{ background:#999898; padding:6px 15px; border:none; -moz-border-radius: 5px; -webkit-border-radius: 5px;  border-radius:5px; outline:none; -moz-box-shadow:0 0 10px 2px #ccc; -webkit-box-shadow:0 0 10px 2px #ccc; box-shadow:0 0 10px 2px #ccc; margin:15px 10px; color:#FFF; font-size:14px;}
+
+.QiYeView{ height:140px; overflow: hidden; margin-bottom:15px;}
+.QiYeView.lst{ margin-bottom:0;}
+.QiYeView .QiYeImg{ float:left; padding-left:85px;}
+.QiYeView .QiYeImg img{ width:214px; height:137px;}
+.QiYeView .QiYeTxt{ width:475px; padding-left:10px; line-height:22px; padding-top:15px; padding-bottom:15px; overflow:hidden; text-indent:25px;}
+
+.TouZiGuan{ padding-top:100px;}

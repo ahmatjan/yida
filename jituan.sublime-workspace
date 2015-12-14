@@ -1,0 +1,1308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ds",
+				"distance"
+			],
+			[
+				"inser",
+				"insertAdjacentHTML"
+			],
+			[
+				"insert",
+				"insertAdjacentHTML"
+			],
+			[
+				"out",
+				"outerHTMLGetter"
+			],
+			[
+				"parent",
+				"parentNode"
+			],
+			[
+				"first",
+				"firstChild"
+			],
+			[
+				"noT",
+				"nodeType"
+			],
+			[
+				"next",
+				"nextSibling"
+			],
+			[
+				"n",
+				"not	.not()"
+			],
+			[
+				"onmouse",
+				"onmousemove"
+			],
+			[
+				"oReplac",
+				"oReplaceInput"
+			],
+			[
+				"getElement",
+				"getElementsByTagName"
+			],
+			[
+				"no",
+				"nodeType"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"backgro",
+				"background"
+			],
+			[
+				"be",
+				"beforeAction〔function〕"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"B",
+				"Behavior〔class〕"
+			],
+			[
+				"frontend",
+				"frontend\\behaviors\\SiteBehavior〔class〕"
+			],
+			[
+				"front",
+				"frontend"
+			],
+			[
+				"Site",
+				"SiteBehavior〔namespace〕"
+			],
+			[
+				"Active",
+				"ActiveRecord〔class〕"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"fang",
+				"fangyii2〔namespace〕"
+			],
+			[
+				"ba",
+				"background-color: 〔property〕"
+			],
+			[
+				"word",
+				"word-break: 〔property〕"
+			],
+			[
+				"spl",
+				"spl_autoload_register〔function〕"
+			],
+			[
+				"php",
+				"php"
+			],
+			[
+				"phpinfo",
+				"phpcredits〔function〕"
+			],
+			[
+				"if",
+				"if	<?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"con",
+				"config"
+			],
+			[
+				"a",
+				"abstract"
+			],
+			[
+				"gett",
+				"gettype〔function〕"
+			],
+			[
+				"mysql_fetch",
+				"mysql_fetch_assoc"
+			],
+			[
+				"db_",
+				"db_query〔function〕"
+			],
+			[
+				"err",
+				"error_reporting〔function〕"
+			],
+			[
+				"spl_",
+				"spl_classes"
+			],
+			[
+				"ph",
+				"phpversion"
+			],
+			[
+				"product",
+				"product__list"
+			],
+			[
+				"slide",
+				"slideUp	.slideUp()"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pro",
+				"product__title"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"loca",
+				"location__list"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"to",
+				"toSlashes"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"moz",
+				"-moz-binding: 〔property〕"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"border-ty",
+				"border-bottom-style"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"backgrou",
+				"background-image: 〔property〕"
+			],
+			[
+				"emai",
+				"emailVal〔variable〕"
+			],
+			[
+				"type",
+				"typeof〔keyword〕"
+			],
+			[
+				"data",
+				"dataLen〔variable〕"
+			],
+			[
+				"get",
+				"getjson	$.getjson()"
+			],
+			[
+				"jso",
+				"json_encode〔function〕"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"mysql_fe",
+				"mysql_fetch_assoc〔function〕"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"d",
+				"descendants"
+			],
+			[
+				"site",
+				"site_url〔function〕"
+			],
+			[
+				"invita",
+				"invitation_code_m"
+			],
+			[
+				"mysql_fa",
+				"mysql_affected_rows〔function〕"
+			],
+			[
+				"mysql_row",
+				"mysql_num_rows"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"_S",
+				"$_SESSION〔variable〕"
+			],
+			[
+				"inv",
+				"invi_code"
+			],
+			[
+				"invitation",
+				"invitation_code_m"
+			],
+			[
+				"checkIn",
+				"checkInviCode_f"
+			],
+			[
+				"strto",
+				"strtolower〔function〕"
+			],
+			[
+				"str",
+				"strtolower〔function〕"
+			],
+			[
+				"key",
+				"keywords"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"form",
+				"form_text"
+			],
+			[
+				"for",
+				"form_field"
+			],
+			[
+				"c",
+				"caption	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"ou",
+				"outline"
+			],
+			[
+				"border-",
+				"border-collapse"
+			],
+			[
+				"get_clas",
+				"get_class_methods〔function〕"
+			],
+			[
+				"meth",
+				"method_exists〔function〕"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"repea",
+				"repeat-x"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"cl",
+				"class	Attr"
+			],
+			[
+				"index",
+				"index_col"
+			],
+			[
+				"backgou",
+				"background-position"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"pre",
+				"prependTo	.prependTo()"
+			],
+			[
+				"nav",
+				"nav__item__en"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"info",
+				"$info_l〔variable〕"
+			],
+			[
+				"S",
+				"Shagua3"
+			],
+			[
+				"Sh",
+				"Shagua1"
+			],
+			[
+				"scr",
+				"script	Tag"
+			],
+			[
+				"toggle",
+				"toggle	.toggle()"
+			],
+			[
+				"togg",
+				"toggle	.toggle()"
+			],
+			[
+				"tog",
+				"toggle	.toggle()"
+			],
+			[
+				"t",
+				"toggle	.toggle() (show/hide)"
+			],
+			[
+				"backgru",
+				"background"
+			],
+			[
+				"sc",
+				"scrollTop	.scrollTop()"
+			],
+			[
+				"ul",
+				"ulWidth"
+			],
+			[
+				"ani",
+				"animate	.animate()"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"background-",
+				"background-size"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"sl",
+				"sleep"
+			],
+			[
+				"get_c",
+				"get_class_methods"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"html",
+				"html	.html()"
+			],
+			[
+				"htm",
+				"html	.html()"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"ti",
+				"times"
+			],
+			[
+				"po",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"sshtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Controluser",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Package Controlusr",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"packuser",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packlist",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Format",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"Package Controlus",
+				"Package Control: List Unmanaged Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sscss",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control us",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Controluse",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Package us",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: myhtmlxt"
+			],
+			[
+				"ftp",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"ftpbr",
+				"SFTP: Browse Server…"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/F/wamps/www/project/jituan.com/index.php",
+		"/F/wamps/www/project/jituan.com/tpl/tc/index.html",
+		"/F/wamps/www/project/jituan.com/app/admin/config.inc.php",
+		"/F/wamps/www/project/jituan.com/tpl/www/index.html",
+		"/F/wamps/www/project/jituan.com/boot.php",
+		"/F/wamps/www/project/jituan.com/app/admin/view.config.php",
+		"/F/wamps/www/project/jituan.com/tpl/en/index.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/index.html",
+		"/F/wamps/www/project/jituan.com/app/www/view/close.html",
+		"/F/wamps/www/project/jituan.com/app/www/view/index.html",
+		"/C/Users/ADMINI~1/AppData/Local/Temp/Rar$DRa0.165/app/admin/view/index.html",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/1_home.php",
+		"/F/wamps/www/project/jituan.com/app/admin/view/login.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/top.html",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/1_header.php",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/1_index.php",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/1_login.php",
+		"/F/wamps/www/project/jituan.com/tpl/www/self/open/header.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/header.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/left.html",
+		"/F/wamps/www/project/jituan.com/app/admin/control/ctrl.php",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/ctrl-/1_set.php",
+		"/F/wamps/www/project/jituan.com/app/admin/view/list/set.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/cate/set.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/ctrl/set.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/css/chuangyistyle_1.css",
+		"/F/wamps/www/project/jituan.com/app/www/control/list.php",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/cate-/1_set.php",
+		"/F/wamps/www/project/jituan.com/tpl/www/msg_pro.html",
+		"/F/wamps/www/project/e-techedu/tpl/www/head.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/head.html",
+		"/F/wamps/www/js/index.html",
+		"/F/wamps/www/js/animate.js",
+		"/F/wamps/www/js/classList.js",
+		"/F/wamps/www/js/dom.js",
+		"/D/妙味课堂/03：2014javascript中级/第01课：DOM基础概念、操作/lesson1/练习课件/1-3.html",
+		"/D/妙味课堂/03：2014javascript中级/第01课：DOM基础概念、操作/lesson1/练习课件/1-2.html",
+		"/D/妙味课堂/03：2014javascript中级/第01课：DOM基础概念、操作/lesson1/练习课件/1-1.html",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/Default (Windows).sublime-keymap",
+		"/F/wamps/www/project/jituan.com/tpl/www/msg_article.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/list_article.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/msg_onepage.html",
+		"/F/wamps/www/project/abc/tpl/www/msg_onepage.html",
+		"/F/wamps/www/project/abc/tpl/www/list_touzi.html",
+		"/F/wamps/www/project/abc/tpl/www/msg_article.html",
+		"/F/wamps/www/project/jituan.com/msg_pro.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/foot.html",
+		"/F/wamps/www/project/e-techedu/tpl/www/index.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/about.html",
+		"/F/wamps/www/project/仿站小工具/www.ntmediabj.com/about.html",
+		"/F/wamps/www/project/abc/tpl/www/msg_pro.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/js/common_1.js",
+		"/F/wamps/www/project/jituan.com/tpl/www/js/language_1.js",
+		"/F/wamps/www/project/jituan.com/tpl/www/js/jquery-1.9.1.min.js",
+		"/F/wamps/www/project/jituan.com/tpl/www/js/common.js",
+		"/F/wamps/www/project/jituan.com/head.html",
+		"/F/wamps/www/project/abc/tpl/www/js/common.js",
+		"/F/wamps/www/project/abc/tpl/www/js/common_1.js",
+		"/F/wamps/www/project/abc/tpl/www/js/jquery.nanoscroller.js",
+		"/F/wamps/www/project/abc/tpl/www/js/jquery.nanoscroller_1.js",
+		"/F/wamps/www/project/abc/tpl/www/js/jquery-1.9.1.min.js",
+		"/F/wamps/www/project/abc/tpl/www/js/jquery-1.9.1.min_1.js",
+		"/F/wamps/www/project/abc/tpl/www/js/language.js",
+		"/F/wamps/www/project/abc/tpl/www/js/language_1.js",
+		"/F/wamps/www/project/abc/tpl/www/css/chuangyistyle.css",
+		"/F/wamps/www/project/abc/tpl/www/css/chuangyistyle_1.css",
+		"/F/wamps/www/project/abc/tpl/www/css/nanoscroller.css",
+		"/F/wamps/www/project/abc/tpl/www/chanye_x.html",
+		"/F/wamps/www/project/abc/tpl/www/foot.html",
+		"/F/wamps/www/project/abc/tpl/www/head.html",
+		"/F/wamps/www/project/abc/tpl/www/index.html",
+		"/F/wamps/www/project/abc/tpl/www/list_article.html",
+		"/F/wamps/www/project/仿站小工具/www.ntmediabj.com/index.html",
+		"/F/wamps/www/project/abc/tpl/www/jiaru.html",
+		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.633/version.php",
+		"/F/wamps/www/project/abc/libs/model.sys.php",
+		"/F/wamps/www/project/jituan.com/app/database.config.php",
+		"/F/wamps/www/project/jituan.com/version.php",
+		"/F/wamps/www/project/jituan.com/app/www/model.config.php",
+		"/F/wamps/www/project/jituan.com/app/www/config.inc.php",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/js1.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/js2.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/100个随机1-1000内不重复的数字.html",
+		"/D/wengdo/js特效封装.js",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/IT培训资料库淘宝店.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/12-随机函数.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/14-reverse方法.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/1.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/2.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/3.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/15.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/4.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/5.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/6.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/7.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/8.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/9.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/10.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/11.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/12.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/13.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/14.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/miaov.js",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/消除表情小游戏/1.html",
+		"/F/wamps/www/js/tab/tab.js",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/12-4-1.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/12-3.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/12-2.html",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/12-1.html",
+		"/F/wamps/www/js/analy.js",
+		"/D/妙味课堂/02：2014javascript初级/第10课：日期对象、时钟倒计时/lesson10/作业/js.html",
+		"/D/妙味课堂/02：2014javascript初级/第10课：日期对象、时钟倒计时/lesson10/作业/10-3.html",
+		"/D/妙味课堂/02：2014javascript初级/第10课：日期对象、时钟倒计时/lesson10/作业/miaov.js",
+		"/D/妙味课堂/02：2014javascript初级/第10课：日期对象、时钟倒计时/lesson10/作业/10-2.html",
+		"/D/妙味课堂/02：2014javascript初级/第10课：日期对象、时钟倒计时/lesson10/作业/10-1.html",
+		"/F/wamps/www/js/window.js",
+		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/12-4.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/作业/11-1.html",
+		"/D/妙味课堂/02：2014javascript初级/第11课：字符串、查找高亮显示/lesson11/作业/11-1-0.html",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/Preferences.sublime-settings",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/Package Control.sublime-settings",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/sublime.py",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/KeymapManager-master/Default (Linux).sublime-keymap",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/KeymapManager-master/Default (Windows).sublime-keymap",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/KeymapManager-master/KeymapManager.pyc",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/KeymapManager-master/KeymapManager.py",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/KeymapManager-master/KeymapManager.sublime-settings",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/KeymapManager-master/Main.sublime-menu"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 125.0,
+		"where_history":
+		[
+			"",
+			"D:\\ljj\\project\\all_project\\hongmian\\0.2\\app\\admin",
+			"D:\\ljj\\project\\all_project\\hongmian\\0.2\\app\\www",
+			"",
+			"D:\\ljj\\project\\all_project\\hongmian\\0.2\\tpl\\www\\images",
+			"",
+			"D:\\ljj\\project\\all_project\\yuxitang\\0.5",
+			"D:\\ljj\\project\\all_project\\hantai\\0.2\\app\\admin",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"情感网络工作室",
+			"PHPOK后台管理",
+			" -- www.phpok.com",
+			"企业网站建设用PHPOK3.0更简单！ - PHPOK.COM",
+			"情感,企业,网站,建设,phpok,qinggan,phpok",
+			"情感",
+			"缩略图：",
+			"不支持缩略图的模块，此参数无效",
+			"不支持缩略图的模块，此参数无效111",
+			"不支持缩略图的模块，此参数无效",
+			"images/",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"picture/",
+			"js/",
+			"css/",
+			"^(.s)*\\n",
+			"{:$_sys['siteurl']}tpl/wwwimages/",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/www/picture/",
+			"{:$_sys['siteurl']}tpl/www/picture",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/www/images",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"js/",
+			"picture/",
+			"css/",
+			"^(\\s*)\\n",
+			"picture/",
+			"images/",
+			"css/",
+			"js/",
+			"^(\\s*)\\n",
+			"^((\\s*)\\r\\n)+",
+			"^(\\s*)\\r\\n",
+			"next",
+			"0",
+			"img",
+			"png",
+			"checkScore",
+			"on",
+			"没有",
+			"妙味课堂",
+			".display",
+			"replaceInputs",
+			"toolbox",
+			"Toolbox",
+			"toolbox",
+			"li",
+			"ul",
+			"模板文件",
+			"模板文件：",
+			"不带后缀，不设置将使用系统自带模板文件：msg_pro",
+			"产品内容：",
+			"主题",
+			"首页排序：",
+			"Traditionalized",
+			"Simplized",
+			"{:$_sys['siteurl']}tpl/www/",
+			"js/",
+			"((\\n)\\s*\\n){1,}",
+			"((\\r\\n)\\s*\\r\\n){1,}",
+			"}",
+			"{$_sys['siteurl']}",
+			"css/",
+			"js/",
+			"picture/",
+			"images/",
+			"css/",
+			"js/",
+			"picture/",
+			"len",
+			"[\\u2E80-\\uFE4F]+",
+			"[\\u4e00-\\u9faf]+",
+			"[0-9\\u4e00-\\u9faf]",
+			"[\\u4e00-\\u9fa5]+",
+			"[\\u4e00-\\u9fa5]",
+			"^[\\u4e00-\\u9fa5]$",
+			"[\\u4E00-\\u9FFF]",
+			"^[\\u4E00-\\u9FFF]+$",
+			"1",
+			"请正确填写手机号码",
+			"取消订单",
+			"请正确输入密码",
+			"请选择咨询类型",
+			"opts",
+			"更多",
+			"quit",
+			"文章不存在",
+			"baby",
+			"宝贝",
+			"the system",
+			"resize",
+			"a:hover",
+			"当前正在操作的语言：",
+			"内容管理",
+			"数据调用中心",
+			"图片：",
+			"不支持缩略图的模块，此参数无效",
+			"缩略图",
+			"javascript:;",
+			" .ui-link-img:hover",
+			".ui-items",
+			"ul ",
+			"a",
+			"ob_start",
+			"ob_start()",
+			"$component",
+			"WE CAN DO IT JUST THINK",
+			"ini_set\\(.*display_errors",
+			"33.33px",
+			"parseDsn",
+			"function C",
+			"<img class=\"product__pic\" src=\"\" alt=\"\">",
+			"?>",
+			"/<\\?php.*s\\?>/s",
+			"indexphp",
+			"动态页首页",
+			"标题附加字",
+			"邮箱",
+			"resize",
+			"class Load",
+			"class CI_Controller",
+			"//",
+			"<p>",
+			"<li>",
+			"li",
+			"leftLoop",
+			"语言"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"{:$_sys['siteurl']}images/",
+			"images/",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/www/js/",
+			"{:$_sys['siteurl']}tpl/www/css/",
+			"",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/wwwimages/",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/www/picture/",
+			"{:$_sys['siteurl']}tpl/www/picture",
+			"{:$_sys['siteurl']}tpl/www/picture/",
+			"{:$_sys['siteurl']}tpl/www/js/",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/www/css/",
+			"",
+			"{:$_sys['siteurl']}tpl/www/images/",
+			"{:$_sys['siteurl']}tpl/www/css/",
+			"{:$_sys['siteurl']}tpl/www/js/",
+			"",
+			"\\r\\n",
+			"{:$_sys['siteurl']}tpl/www/js/",
+			"$2",
+			"{:$_sys['siteurl']}",
+			"{$_sys['siteurl']}tpl/www/css/",
+			"{$_sys['siteurl']}tpl/www/js/",
+			"{$_sys['siteurl']}tpl/www/images/",
+			"{$_sys['siteurl']}tpl/www/css/",
+			"{$_sys['siteurl']}tpl/www/js/",
+			"images/",
+			"50px",
+			"<img class=\"product__pic\" src=\"images/list_product.jpg\" alt=\"product\">",
+			"",
+			".nav__item",
+			"<a href=\"\"><img src=\"images/ico_cate.jpg\" alt=\"\"></a>",
+			"",
+			"obj",
+			".*",
+			"setCookie",
+			"a href=\"http://www.baidu.com/\" class=\"nav__link\"",
+			"",
+			"about.jpg",
+			"images/about.jpg",
+			"<li class=\"nav__item\" style=\"background-image:url('images/bg_nav.jpg')\">",
+			"<!-- inc:cate_banner -->",
+			"sprite.1x.png",
+			"<li class=\"cate__item\"><a href=\"\">子分类</a></li>",
+			"nav__en_title",
+			"images/",
+			".shortcut",
+			"images",
+			"",
+			"agent_msg",
+			"subject_cell__",
+			".pagelist__item",
+			".pagelist .pagelist__item",
+			".pagelist",
+			"subject__gt",
+			"subject",
+			"banner_inner",
+			"<!-- inc:banner_inner -->",
+			"&nbsp;&gt;&nbsp;",
+			"url",
+			"slideTxtBox",
+			".section_title",
+			"section_title",
+			"<img src=\"images/hat.jpg\" alt=\"pic\" />",
+			"",
+			"pro_detail_pic__superSlide",
+			"$rslist",
+			"3a3a3a",
+			"{:$_sys[logo]}",
+			"url('../images/",
+			"url('",
+			"images",
+			"images/",
+			"",
+			"ul",
+			"images/",
+			"<p><a href=\"\"><img src=\"images/pro.jpg\" alt=\"产品图片\"></a></p>",
+			"share",
+			"width: 1166px;",
+			"View details",
+			"url(tpl/www/images/",
+			"url(images/",
+			"url(",
+			"href=\"images/",
+			"src=\"images/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "jituan.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tplstyle",
+				"tpl\\www\\images\\style.css"
+			],
+			[
+				"index.inc.php",
+				"libs\\index.inc.php"
+			],
+			[
+				"adminhome",
+				"app\\admin\\control\\home.php"
+			],
+			[
+				"style",
+				"tpl\\www\\images\\style.css"
+			],
+			[
+				"indexcss",
+				"tpl\\www\\images\\index.css"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"sty",
+				"images\\style.css"
+			],
+			[
+				"adminc",
+				"app\\admin\\controller\\AdminController.class.php"
+			],
+			[
+				"msg_a",
+				"tpl\\www\\msg_agent.html"
+			],
+			[
+				"cate.",
+				"tpl\\www\\cate.html"
+			],
+			[
+				"posit",
+				"tpl\\www\\position.html"
+			],
+			[
+				"wwwmolis",
+				"app\\www\\models\\list.php"
+			],
+			[
+				"conlist",
+				"app\\www\\control\\list.php"
+			],
+			[
+				"lista",
+				"tpl\\www\\list_article.html"
+			],
+			[
+				"tplsty",
+				"tpl\\www\\images\\style.css"
+			],
+			[
+				"advilih",
+				"app\\admin\\view\\admin\\list.html"
+			],
+			[
+				"advilist",
+				"app\\admin\\view\\images\\admin\\list.js"
+			],
+			[
+				"appadcat",
+				"app\\admin\\control\\cate.php"
+			],
+			[
+				"appadmconlistphp",
+				"app\\admin\\control\\list.php"
+			],
+			[
+				"listseth",
+				"app\\admin\\view\\list\\set.html"
+			],
+			[
+				"tpllistar",
+				"tpl\\www\\list_article.html"
+			],
+			[
+				"tplinde",
+				"tpl\\www\\index.html"
+			],
+			[
+				"tplcate",
+				"tpl\\www\\cate.html"
+			],
+			[
+				"msg_ar",
+				"tpl\\www\\msg_article.html"
+			],
+			[
+				"list_ar",
+				"tpl\\www\\list_article.html"
+			],
+			[
+				"tplstyl",
+				"tpl\\www\\images\\style.css"
+			],
+			[
+				"msgarti",
+				"tpl\\www\\msg_article.html"
+			],
+			[
+				"adminlisset",
+				"app\\admin\\view\\list\\set.html"
+			],
+			[
+				"tpllistap",
+				"tpl\\www\\list_applynow.html"
+			],
+			[
+				"inner",
+				"tpl\\www\\inner.html"
+			],
+			[
+				"tplmo",
+				"tpl\\www\\images\\editMode.css"
+			],
+			[
+				"tplsycs",
+				"tpl\\www\\images\\style.css"
+			],
+			[
+				"adminconlist",
+				"app\\admin\\control\\list.php"
+			],
+			[
+				"tpljs.js",
+				"tpl\\www\\images\\js.js"
+			],
+			[
+				"tplindex",
+				"tpl\\www\\index.html"
+			],
+			[
+				"admsethtml",
+				"app\\admin\\view\\setting.html"
+			],
+			[
+				"listbo",
+				"tpl\\www\\list_book_zh.html"
+			],
+			[
+				"listboo",
+				"tpl\\www\\list_book_zh.html"
+			],
+			[
+				"wwwclist",
+				"app\\www\\control\\list.php"
+			],
+			[
+				"adminse",
+				"app\\admin\\view\\setting.html"
+			],
+			[
+				"adminset",
+				"app\\admin\\view\\admin\\set.html"
+			],
+			[
+				"images/style",
+				"tpl\\www\\images\\style.css"
+			],
+			[
+				"styl",
+				"images\\style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\wengdo\\切图项目\\html\\index.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

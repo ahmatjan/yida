@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录后台管理</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="images/login.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var base_file = "{:HOME_PAGE}";
+var base_url = "{:$sys_app->url}";
+var base_ctrl = "{:$sys_app->config->c}";
+var base_func = "{:$sys_app->config->f}";
+var base_dir = "{:$sys_app->config->d}";
+var phpok_data = "";
+</script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<!-- if(function_exists("imagecreate") && defined("SYS_VCODE_USE") && SYS_VCODE_USE == true) -->
+<script type="text/javascript">
+function adm_login_vcode()
+{
+	var srcurl = "{:site_url('login,codes','','&')}";
+	var rand = Math.random();
+	srcurl += "rand="+rand;
+	$("#phpok_vcode").attr("src",srcurl);
+}
+function chk_vcode()
+{
+	var chk = $("#chk").val();
+	if(!chk)
+	{
+		alert("验证码不允许为空");
+		return false;
+	}
+	return true;
+}
+</script>
+<!-- else -->
+<script type="text/javascript">
+function chk_vcode(){return true}
+</script>
+<!-- end -->
+<script type="text/javascript">
+function phpok_chklogin()
+{
+	var username = $("#username").val();
+	var mypass = $("#password").val();
+	if(!username)
+	{
+		alert("账号不允许为空");
+		return false;
+	}
+	if(!mypass)
+	{
+		alert("密码不允许为空");
+		return false;
+	}
+	var vcode_chk = chk_vcode();
+	if(!vcode_chk) return false;
+	return true;
+}
+if (self.location != top.location) top.location = self.location; 
+</script>
+</head>
+
+<body>
+<div class="top"></div>
+<div class="main">
+<div class="box">
+<form method="post" action="{:site_url('login,login_ok','','&')}" onsubmit="return phpok_chklogin()">
+<table width="360" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="30" colspan="3">用户名：</td>
+    </tr>
+  <tr>
+    <td height="40" colspan="3"><input name="username" type="text" class="user user_bg1" id="username" /></td>
+    </tr>
+  <!-- if(function_exists("imagecreate") && defined("SYS_VCODE_USE") && SYS_VCODE_USE == true) -->
+  <tr>
+    <td width="209" height="30">密码：</td>
+    <td colspan="2">验证码：</td>
+    </tr>
+  <tr>
+    <td height="40"><input name="password" id="password" type="password" class="user user_bg2" /></td>
+    <td width="72"><input name="chk" type="text" class="user user_bg3" id="chk" /></td>
+    <td width="79"><img src="{:site_url('login,codes','','&')}" border="0" align="absmiddle" style="cursor:pointer;" onclick="adm_login_vcode()" id="phpok_vcode"></td>
+    </tr>
+  <!-- else -->
+  <tr>
+    <td width="209" height="30" colspan="3">密码：</td>
+    </tr>
+  <tr>
+    <td height="40"><input name="password" id="password" type="password" class="user user_bg2" /></td>
+    </tr>
+  <!-- end -->
+  <tr>
+    <td height="80" colspan="3"><input type="submit" class="but" id="phpok_button" value=" " /></td>
+    </tr>
+  </table>
+</div>
+</form>
+<div class="bottom"></div>
+</div>
+</body>
+</html>

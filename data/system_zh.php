@@ -1,0 +1,41 @@
+<?php 
+$_sys["sitename"] = "益达集团";
+$_sys["seotitle"] = "广州";
+$_sys["siteurl"] = "http://localhost/project/jituan.com/";
+$_sys["indexphp"] = "index.php";
+$_sys["keywords"] = "益达";
+$_sys["description"] = "益达（广州）科技有限公司";
+$_sys["logo"] = "upfiles/201109/12/aaa58b641f2053ce.jpg";
+$_sys["smtp_server"] = "smtp.126.com";
+$_sys["smtp_port"] = "25";
+$_sys["smtp_charset"] = "gbk";
+$_sys["smtp_ssl"] = "";
+$_sys["smtp_user"] = "suxiangkun";
+$_sys["smtp_pass"] = "aa150467466";
+$_sys["smtp_reply"] = "suxiangkun@gmail.com";
+$_sys["smtp_admin"] = "suxiangkun@126.com";
+$_sys["smtp_fromname"] = "PHPOK企业网站";
+$_sys["smtp_reg"] = "";
+$_sys["smtp_order"] = "";
+$_sys["video_width"] = "430";
+$_sys["video_height"] = "330";
+$_sys["video_image"] = "upfiles/201012/15/32359c502faff0a4.jpg";
+$_sys["site_status"] = "1";
+$_sys["close_reason"] = "维护中，请稍候再试";
+$_sys["reg_status"] = "";
+$_sys["close_reg"] = "";
+$_sys["login_status"] = "";
+$_sys["close_log"] = "";
+$_sys["search_thumb"] = "thumb";
+$_sys["cart_thumb"] = "thumb";
+$_sys["cart_address"] = "";
+$_sys["search_page"] = "30";
+$_sys["site_type"] = "";
+$_sys["sitehtml"] = "http://localhost/phpok3full/";
+$_sys["html_folder"] = "/";
+$_sys["baidu_union_verify"] = "";
+$_sys["google_site_verification"] = "";
+$_sys["yahoo_site_key"] = "";
+$_sys["ms_site_validate"] = "";
+
+ ?>

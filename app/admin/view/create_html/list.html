@@ -1,0 +1,54 @@
+<!-- inc:header -->
+<div class="notice"><div class="p">
+	<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><span class="lead">&nbsp;&raquo; 静态页生成管理</span></td>
+	</tr>
+	</table>
+</div></div>
+
+<div class="table">
+	<div class="left">&nbsp;</div>
+	<input type="button" value="首页生成" onclick="to_html('index')" class="btn4" />
+</div>
+
+<div class="table">
+	<div class="left">&nbsp;</div>
+	<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td>{:$cate_html} <input type="button" value="列表生成" onclick="to_html('list');" class="btn4" /></td>
+	</tr>
+	<tr>
+		<td height="25px">起始ID：<input type="text" id="startid" name="startid" class="short_input" /> <span class="clue_on">空或0表示从头开始</span></td>
+	</tr>
+	<tr>
+		<td height="25px">结束ID：<input type="text" id="endid" name="endid" class="short_input" /> <span class="clue_on">空或0表示直到结束ID</span></td>
+	</tr>
+	<tr>
+		<td><input type="button" value="内容生成" onclick="to_html('msg');" class="btn4" /></td>
+	</tr>
+	</table>
+</div>
+<br />
+<div class="table">
+	<div class="left">生成状态：</div>
+	<span id="creat_html_status">&nbsp;</span>
+</div>
+<br />
+
+<div class="notice"><div class="p">
+	<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td><span class="lead">&nbsp;&raquo; 网站地图，特别说明：如果网址超过50000条，请使用第三方下载工具！</span></td>
+	</tr>
+	</table>
+</div></div>
+
+<div class="table">
+	<div class="left">&nbsp;</div>
+	<input type="button" value="谷歌地图" onclick="to_sitemap();" class="btn4" />
+	<input type="button" value="百度地图" onclick="to_baidu_sitemap();" class="btn4" />
+	<input type="button" value="ror地图" onclick="to_ror();" class="btn4" />
+	<input type="button" value="urllist地图" onclick="to_urllist();" class="btn4" />
+</div>
+<!-- inc:footer -->

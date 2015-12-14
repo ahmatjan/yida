@@ -1,0 +1,87 @@
+<!-- inc:header -->
+<script type="text/javascript">
+function set_main_cateid(id,title)
+{
+	parent.$("#cate_id").attr("value",id);
+	parent.$("#cate_open_string").attr("value",title);
+	//更新复选框
+	var idstring = join_checkbox("myopen_catelist","all");
+	if(idstring && idstring != "undefined")
+	{
+		var idlist = idstring.split(",");
+		for(var i=0;i<idlist.length;i++)
+		{
+			if(idlist[i] == id)
+			{
+				$("#cateid_"+id).attr("disabled",true);
+				$("#cateid_"+id).attr("checked",false);
+			}
+			else
+			{
+				$("#cateid_"+idlist[i]).attr("disabled",false);
+			}
+		}
+	}
+	set_ext_cateid();
+}
+function set_ext_cateid()
+{
+	var id = join_checkbox();
+	parent.$("#cate_string").attr("value",id);
+}
+//初始化选中
+function load_selected()
+{
+	//扩展分类
+	var ext_cateid = parent.$("#cate_string").val();
+	if(ext_cateid && ext_cateid != "undefined")
+	{
+		var ext_list = ext_cateid.split(",");
+		for(var i=0;i<ext_list.length;i++)
+		{
+			$("#cateid_"+ext_list[i]).attr("checked",true);
+		}
+	}
+	var main_cateid = parent.$("#cate_id").val();
+	if(main_cateid)
+	{
+		$("#main_cateid_"+main_cateid).attr("checked",true);
+		if($("#cateid_"+main_cateid).attr("checked") == true)
+		{
+			$("#cateid_"+main_cateid).attr("checked",false);
+			set_ext_cateid();
+		}
+		$("#cateid_"+main_cateid).attr("disabled",true);
+	}
+}
+$(document).ready(function(){load_selected();});
+</script>
+<div class="notice"><div class="p">&nbsp;&raquo; 【{:$m_rs[title]}】选择分类<span class="clue_on">【选择完分类，<a href="javascript:parent.Layer.over();void(0);"><span class="red">可点此关闭</span></a>】</span></div></div>
+
+<div class="main" id="myopen_catelist">
+<table width="100%" style="layout:fixed;" cellpadding="0" cellspacing="0">
+<tr>
+	<td class="t_sub" width="50px">ID</td>
+	<td class="t_sub" width="35px">状态</td>
+	<td class="t_sub">名称</td>
+	<td class="t_sub" width="60px">主分类</td>
+	<td class="t_sub" width="60px">扩展分类</td>
+</tr>
+<!-- $catelist AS $key=>$value -->
+<tr class="tr_out" onMouseOver="over_tr(this)" onMouseOut="out_tr(this)">
+	<td align='center' class="tc_left">{:$value[id]}</td>
+	<td align="center" class="tc_right"><a class="status{:intval($value[status])}"></a></td>
+	<td align='left' class="tc_right" style="{:$value[style]};padding:2px 0;">&nbsp;{:$value[space]}{:$value[cate_name]} <span class="clue_on">[{:$value[identifier]}]</span></td>
+	<!-- if($value[isend] && !$value[ifspec]) -->
+	<td align="center" class="tc_right"><input type="radio" name="main_cateid" value="{:$value[id]}" onclick="set_main_cateid('{:$value[id]}','{:$value[cate_name]}')"{if($cate_id == $value['id'])} checked{end} id="main_cateid_{:$value[id]}"></td>
+	<td align="center" class="tc_right"><input type="checkbox" id="cateid_{:$value[id]}" name="ext_cateid" onclick="set_ext_cateid()"{if($cate_id == $value['id'])} disabled{end}{if(in_array($value[id],$cate_list))} checked{end} value="{:$value[id]}" /></td>
+	<!-- else -->
+	<td align="center" class="tc_right">-</td>
+	<td align="center" class="tc_right">-</td>
+	<!-- end -->
+</tr>
+<!-- end -->
+</table>
+</div>
+
+<!-- inc:footer_open -->

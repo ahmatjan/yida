@@ -1,0 +1,103 @@
+<!-- inc:header -->
+<script type="text/javascript">
+function view_ico(val)
+{
+	if(!val || val == "undefined")
+	{
+		$("#ico_preview").html("&nbsp;");
+		return true;
+	}
+	$("#ico_preview").html("<img src='images/ico/"+val+"' />");
+	return true;
+}
+</script>
+<div class="notice"><div class="p">
+	<table width="100%" cellpadding="0" cellspacing="0">
+	<tr>
+		<td width="130px"><span class="lead">&nbsp;&raquo; 添加/修改快捷键</span></td>
+		<td align="right"><a href="{:site_url('hotlink')}" class="button">快捷键列表</a></td>
+	</tr>
+	</table>
+</div></div>
+
+
+<form method="post" action="{:site_url('hotlink,setok')}id={:$id}" onsubmit="return to_setgd('{:$id}')">
+<div class="table">
+	<div class="left"><span class="red">*</span> 名称：</div>
+	<input type="text" name="title" id="title" value="{:$rs[title]}">
+	<span class="clue_on"> 名称不允许为空</span>
+</div>
+<div class="table">
+	<div class="left"><span class="red">*</span> 链接地址：</div>
+	<input type="text" name="linkurl" id="linkurl" value="{:$rs[linkurl]}" class="long_input">
+	<span class="clue_on">[格式如{admin}?{c}=list&{f}=set&id=，不熟的请查看官方帮助手册]</span>
+</div>
+<div class="table">
+	<div class="left">ICO图标：</div>
+	<table cellpadding="0">
+	<tr>
+		<td><select name="ico" id="ico" onchange="view_ico(this.value)">
+		<!-- $icolist AS $key=>$value -->
+		<option value="{:basename($value)}"{if(basename($value) == $rs[ico])} selected{end}>{:basename($value)}</option>
+		<!-- end -->
+		</select></td>
+		<td id="ico_preview"></td>
+		<td class="clue_on">仅提供少量图标，如需更多，请将文件上传到：images/ico目录下，格式为：16X16</td>
+	</tr>
+	</table>
+</div>
+
+<div class="table">
+	<div class="left">状态：</div>
+	<table cellpadding="0" cellspacing="0">
+	<tr>
+		<td><input type="radio" name="status" value="1"{if($rs[status])} checked{end} /></td>
+		<td>使用&nbsp;</td>
+		<td><input type="radio" name="status" value="0"{if(!$rs[status])} checked{end} /></td>
+		<td>禁用</td>
+		<td class="clue_on">&nbsp;[暂时不使用时，可在这里关闭]</td>
+	</tr>
+	</table>
+</div>
+
+<div class="table">
+	<div class="left">排序：</div>
+	<input type="text" name="taxis" id="taxis" class="short_input" value="{:$rs[taxis]}">
+	<span class="clue_on"> [设置排序可以优先生成相关，此功能仅限排序，无其他作用]</span>
+</div>
+
+<div class="table">
+	<div class="left">&nbsp;</div>
+	<input type="submit" id="qgbutton" class="btn3" value="提 交">
+</div>
+</form>
+
+<script type="text/javascript">
+//[对输入的数据进行检测]
+function to_setgd(id)
+{
+	var subject = getid("title").value;
+	if(!subject || subject == "undefined")
+	{
+		alert("标题不允许为空");
+		return false;
+	}
+	var val = getid("linkurl").value;
+	if(!val || val == "undefined")
+	{
+		alert("链接不允许为空");
+		return false;
+	}
+	getid("qgbutton").disabled = true;
+	return true;
+}
+$(document).ready(function(){
+	var myico = $("#ico").val();
+	if(myico)
+	{
+		view_ico(myico);
+	}
+});
+</script>
+
+<!-- inc:footer -->
