@@ -32,9 +32,10 @@
         <img src="<?php echo $_sys['siteurl'];?>tpl/www/images/logo.png" width="251" height="70" ></a>
     </div>
     <div class="TopYuLink">
-      <script type="text/javascript" src="<?php echo $_sys['siteurl'];?>tpl/www/js/language_1.js"></script>
-      <!--<a href="yindex.php" target="_blank">En</a>
-    -->
+      <?php $lang_list=phpok_lang();?>
+      <?php $_i=0;$lang_list=(is_array($lang_list))?$lang_list:array();foreach($lang_list AS  $key=>$value){$_i++; ?>
+        <a href="index.php?langid=<?php echo $key;?>"><?php echo $value;?></a>
+      <?php } ?>
   </div>
     <?php $menulist = phpok_menu($id,$cid,$mid);?>
     <ul class="NavUl" id="nav">

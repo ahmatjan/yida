@@ -128,3 +128,16 @@ img { border:none; }
 .QiYeView .QiYeTxt{ width:475px; padding-left:10px; line-height:22px; padding-top:15px; padding-bottom:15px; overflow:hidden; text-indent:25px;}
 
 .TouZiGuan{ padding-top:100px;}
+
+
+.IndexFoot { position:absolute; bottom:30px; left:50%; margin-left:-542px; }
+.IndexFixMid{ position:relative; top:50%; margin-top:-275px; margin-top:-302px;}
+.LogoArea{ padding-top:70px;}
+.LogoArea a{ display:block;}
+.CopyIndex a:hover{ color:#aaa;}
+
+
+.nano { height: 443px; font-size:12px; border-radius:10px; }
+.nano .content { padding: 20px; }
+.nano .pane { background: #999898; width: 10px; right: 5px; margin: 5px; }
+.nano .slider { background: #727272; width:10px; }

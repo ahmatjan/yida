@@ -1,10 +1,10 @@
 <?php 
-$_sys["sitename"] = "表面赛大夫山";
-$_sys["seotitle"] = "第三方撒";
+$_sys["sitename"] = "益达";
+$_sys["seotitle"] = "广州";
 $_sys["siteurl"] = "http://localhost/project/jituan.com/";
 $_sys["indexphp"] = "index.php";
-$_sys["keywords"] = "发生大幅度舒服";
-$_sys["description"] = "发生的萨芬是";
+$_sys["keywords"] = "益达";
+$_sys["description"] = "益达";
 $_sys["logo"] = "";
 $_sys["smtp_server"] = "";
 $_sys["smtp_port"] = "";

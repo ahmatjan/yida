@@ -32,9 +32,10 @@
         <img src="{:$_sys['siteurl']}images/logo.png" width="251" height="70" ></a>
     </div>
     <div class="TopYuLink">
-      <script type="text/javascript" src="{:$_sys['siteurl']}tpl/www/js/language_1.js"></script>
-      <!--<a href="yindex.php" target="_blank">En</a>
-    -->
+      {run:$lang_list=phpok_lang()}
+      {$lang_list AS $key=>$value}
+        <a href="index.php?langid={:$key}">{:$value}</a>
+      {end}
   </div>
     {run:$menulist = phpok_menu($id,$cid,$mid)}
     <ul class="NavUl" id="nav">

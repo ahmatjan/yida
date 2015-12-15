@@ -1,5 +1,5 @@
-<?php header('Location:index.php?c=msg&&id=457');exit; ?>
-{inc:head}
+<?php if(!defined('PHPOK_SET')){die('<h3>Error...</h3>');}?><?php header('Location:index.php?c=msg&&id=457');exit; ?>
+<?php $APP->tpl->p("head","","0");?>
   <style type="text/css">
   .IndexFoot { position:absolute; bottom:30px; left:50%; margin-left:-542px; }
   .IndexFixMid{ position:relative; top:50%; margin-top:-275px; margin-top:-302px;}
@@ -27,26 +27,26 @@
 <div class="IndexBox" style="height:100%;">
   <div class="HeaderBox">
     <div class="TopYuLink">
-      <script type="text/javascript" src="{:$_sys['siteurl']}tpl/tc/js/language_1.js"></script>
+      <script type="text/javascript" src="<?php echo $_sys['siteurl'];?>tpl/tc/js/language_1.js"></script>
       <!--<a href="yindex.php" target="_blank">En</a>
     -->
   </div>
-  {run:$menulist = phpok_menu($id,$cid,$mid)}
+  <?php $menulist = phpok_menu($id,$cid,$mid);?>
   <ul class="NavUl" id="nav">
-    {$menulist AS $key=>$value}
+    <?php $_i=0;$menulist=(is_array($menulist))?$menulist:array();foreach($menulist AS  $key=>$value){$_i++; ?>
     <li>
-      <a href="{:$value['link']}">{:$value['title']}</a>
+      <a href="<?php echo $value['link'];?>"><?php echo $value['title'];?></a>
       <dl>
-        {$value['sonlist'] AS $k=>$v}
+        <?php $_i=0;$value['sonlist']=(is_array($value['sonlist']))?$value['sonlist']:array();foreach($value['sonlist'] AS  $k=>$v){$_i++; ?>
         <dd>
-          <a href="{:$v['link']}">{:$v['title']}</a>
+          <a href="<?php echo $v['link'];?>"><?php echo $v['title'];?></a>
         </dd>
-        {end}
+        <?php } ?>
       </dl>
     </li>
-    {end}
+    <?php } ?>
   </ul>
-  {run:reset($menulist)}
+  <?php reset($menulist);?>
   <script type="text/javascript">
     ( function(){
       var $li = $("#nav li"),
@@ -62,18 +62,18 @@
 <div class="IndexFixMid">
   <div class="LogoArea" style="text-align:center; height:auto; margin-bottom:50px;">
     <a href="index.php">
-      <img src="{:$_sys['siteurl']}tpl/tc/images/logoi_1.png" width="524" ></a>
+      <img src="<?php echo $_sys['siteurl'];?>tpl/tc//images/logoi_1.png" width="524" ></a>
   </div>
   <!-- <div class="IcoArea" style="margin:0 auto; clear:both;">
-    {run:$pros = phpok_m_list("pro");$i = 1;}
+    <?php $pros = phpok_m_list("pro");$i = 1;;?>
     <ul>
-      {$pros['rslist'] AS $key=>$value}
-      <li class="ico_i{:$i}">
-        <a href="{:msg_url($value)}">
-          <img src="{:$value['picture']}" width="99" height="99" ></a>
+      <?php $_i=0;$pros['rslist']=(is_array($pros['rslist']))?$pros['rslist']:array();foreach($pros['rslist'] AS  $key=>$value){$_i++; ?>
+      <li class="ico_i<?php echo $i;?>">
+        <a href="<?php echo msg_url($value);?>">
+          <img src="<?php echo $value['picture'];?>" width="99" height="99" ></a>
       </li>
-      {run:$i++;}
-      {end}
+      <?php $i++;;?>
+      <?php } ?>
     </ul>
     <script type="text/javascript">
       (function(){
@@ -83,9 +83,9 @@
   </div> -->
 </div>
 <div class="CopyIndex IndexFoot">
-  {run: $arr = phpok('copyright')}
-  {:$arr['content']}
-  {run: unset($arr)}
+  <?php  $arr = phpok('copyright');?>
+  <?php echo $arr['content'];?>
+  <?php  unset($arr);?>
   <div style="text-align:center">
     <a href="">法律声明tc</a>
     <a href="">网站地图</a>
@@ -94,4 +94,4 @@
   </div>
 </div>
 </div>
-{inc:foot}
+<?php $APP->tpl->p("foot","","0");?>

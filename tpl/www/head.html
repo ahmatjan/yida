@@ -9,19 +9,18 @@
 		<!-- if($_sys[seotitle]) -->
 		-- {:$_sys[seotitle]}
 		<!-- end --></title> 
-	<meta name="keywords" content="{:$_sys[keywords]},qinggan,phpok">
-	<meta name="description" content="{:$_sys[description]} - PHPOK.COM">
+	<meta name="keywords" content="{:$_sys[keywords]}">
+	<meta name="description" content="{:$_sys[description]}">
 	<!-- if($_sys[siteurl]) -->
 	<base href="{:$_sys[siteurl]}" />
 	<!-- end -->
-	<script type="text/javascript"> 
-		var base_file = "{:$_sys[siteurl]}{:HOME_PAGE}"; 
-		var base_url = "{:$_sys[siteurl]}{:$sys_app->url}"; 
-		var base_ctrl = "{:$sys_app->config->c}"; 
-		var base_func = "{:$sys_app->config->f}"; 
-		var base_dir = "{:$sys_app->config->d}"; 
-	</script>
 	<link href="{:$_sys['siteurl']}tpl/www/css/chuangyistyle_1.css" type="text/css" rel="stylesheet" >
+  	<link href="{:$_sys['siteurl']}tpl/www/css/nanoscroller.css" type="text/css" rel="stylesheet" >  
 	<script type="text/javascript" src="{:$_sys['siteurl']}tpl/www/js/jquery-1.9.1.min_1.js"></script>
 	<script type="text/javascript" src="{:$_sys['siteurl']}tpl/www/js/common_1.js"></script>
 	<script type="text/javascript" src="{:$_sys['siteurl']}tpl/www/js/jquery.nanoscroller_1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".nano").nanoScroller({alwaysVisible: true});
+		});
+	</script>

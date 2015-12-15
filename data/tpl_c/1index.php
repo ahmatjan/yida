@@ -1,12 +1,9 @@
 <?php if(!defined('PHPOK_SET')){die('<h3>Error...</h3>');}?><?php header('Location:index.php?c=msg&ts=gk');exit; ?>
 <?php $APP->tpl->p("head","","0");?>
   <style type="text/css">
-  .IndexFoot { position:absolute; bottom:30px; left:50%; margin-left:-542px; }
-  .IndexFixMid{ position:relative; top:50%; margin-top:-275px; margin-top:-302px;}
-  .LogoArea{ padding-top:70px;}
-  .LogoArea a{ display:block;}
-  .CopyIndex a:hover{ color:#aaa;}
-  html{ height:100%;}
+  html{
+    height: 100%;
+  }
   </style>
   <script type="text/javascript">
   $(function() { 
@@ -28,8 +25,6 @@
   <div class="HeaderBox">
     <div class="TopYuLink">
       <script type="text/javascript" src="<?php echo $_sys['siteurl'];?>tpl/www/js/language_1.js"></script>
-      <!--<a href="yindex.php" target="_blank">En</a>
-    -->
   </div>
   <?php $menulist = phpok_menu($id,$cid,$mid);?>
   <ul class="NavUl" id="nav">
@@ -64,23 +59,6 @@
     <a href="index.php">
       <img src="<?php echo $_sys['siteurl'];?>tpl/www//images/logoi_1.png" width="524" ></a>
   </div>
-  <!-- <div class="IcoArea" style="margin:0 auto; clear:both;">
-    <?php $pros = phpok_m_list("pro");$i = 1;;?>
-    <ul>
-      <?php $_i=0;$pros['rslist']=(is_array($pros['rslist']))?$pros['rslist']:array();foreach($pros['rslist'] AS  $key=>$value){$_i++; ?>
-      <li class="ico_i<?php echo $i;?>">
-        <a href="<?php echo msg_url($value);?>">
-          <img src="<?php echo $value['picture'];?>" width="99" height="99" ></a>
-      </li>
-      <?php $i++;;?>
-      <?php } ?>
-    </ul>
-    <script type="text/javascript">
-      (function(){
-        $(".ico_i4 img").width("133px").height("133px");
-      }());
-    </script>
-  </div> -->
 </div>
 <div class="CopyIndex IndexFoot">
   <?php  $arr = phpok('copyright');?>
