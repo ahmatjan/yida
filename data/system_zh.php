@@ -1,11 +1,11 @@
 <?php 
 $_sys["sitename"] = "益达集团";
 $_sys["seotitle"] = "广州";
-$_sys["siteurl"] = "http://localhost/project/jituan.com/";
+$_sys["siteurl"] = "http://192.168.1.208/project/jituan.com/";
 $_sys["indexphp"] = "index.php";
 $_sys["keywords"] = "益达";
 $_sys["description"] = "益达（广州）科技有限公司";
-$_sys["logo"] = "upfiles/201109/12/aaa58b641f2053ce.jpg";
+$_sys["logo"] = "upfiles/201512/16/7f173cf025fd3c66.png";
 $_sys["smtp_server"] = "smtp.126.com";
 $_sys["smtp_port"] = "25";
 $_sys["smtp_charset"] = "gbk";

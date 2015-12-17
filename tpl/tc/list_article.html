@@ -1,51 +1,18 @@
 ﻿{inc:head}
-<body>
-<div class="InWarpBox">
-    <div class="HeaderBox">
-        <div class="HeaderLog">
-            <a href="index.php">
-                <img src="{:$_sys['siteurl']}tpl/tc/images/logo.png" width="251" height="70" ></a>
-        </div>
-        <div class="TopYuLink">
-            <script type="text/javascript" src="{:$_sys['siteurl']}tpl/tc/js/language_1.js"></script>
-        </div>
-        {run: $menulist = phpok_menu($id,$cid,$mid) }
-        <ul class="NavUl" id="nav">
-            {$menulist AS $key => $items }
-            <li>
-                <a href="{:$items['link']}">{:$items['title']}</a>
-                {if( isset( $items[sonlist] ) )}
-                <dl>
-                    {$items[sonlist] AS $keys => $value }
-                    <dd>
-                        <a href="{:$value['link']}">{:$value['title']}</a>
-                    </dd>
-                    {end}
-                </dl>
-                {end}
-            </li>
-            {end}
-        </ul>
-        {run: unset($menulist)}
-        <script type="text/javascript">
-          var oNav = document.getElementById('nav'),
-              aList = oNav.getElementsByTagName('li');
-          aList[4].className = 'righ fst';
-          aList[5].className = 'righ';
-          aList[6].className = 'righ';
-        </script>
-    </div>
     <div class="MainBox">
         <div class="MainTit">
             {if($rs['parentid']==0)}{:$rs[cate_name]}{else}{run:$name = phpok_catelist($rs['parentid']); echo $name['me']['cate_name'] }{end}
         </div>
         <div class="MainMid">
             <div class="LeftZ">
-                <img src="{:$_sys['siteurl']}tpl/tc/images/leftz.png" width="91" height="82" ></div>
+                <img src="{:$_sys['siteurl']}tpl/tc/images/leftz.png" width="91" height="82" >
+            </div>
             <div class="RighZ">
-                <img src="{:$_sys['siteurl']}tpl/tc/images/righz.png" width="86" height="84" ></div>
+                <img src="{:$_sys['siteurl']}tpl/tc/images/righz.png" width="86" height="84" >
+            </div>
             <div class="MainMidTop">
-                <img src="{:$_sys['siteurl']}tpl/tc/images/mainbg_top.png" width="1007" height="55" ></div>
+                <img src="{:$_sys['siteurl']}tpl/tc/images/mainbg_top.png" width="1007" height="55" >
+            </div>
             <div class="MainMidCen">
                 <div class="NewsListBox">
                     <ul>
@@ -60,19 +27,18 @@
                     {end}
                     <div class="PageArea">
                         {$pagelist AS $key => $value}
-                        <a href="{:$value['url']}" {:$value[status] ? 'class="active"' : ''} title="{:$value['name']}">{:$value['name']}</a>
+                            {if($value[status])}
+                                <span>{:$value['name']}</span>
+                            {else}
+                                <a href="{:$value['url']}" title="{:$value['name']}">{:$value['name']}</a>
+                            {end}
                         {end}
                     </div>
                 </div>
             </div>
             <div class="MainMidBot">
-                <img src="{:$_sys['siteurl']}tpl/tc/images/mainbg_bot.png" width="1007" height="109" ></div>
+                <img src="{:$_sys['siteurl']}tpl/tc/images/mainbg_bot.png" width="1007" height="109" />
+            </div>
         </div>
     </div>
-    <div class="CopyIndex">
-        {run: $arr = phpok('copyright')}
-        {:$arr['content']}
-        {run: unset($arr)}
-    </div>
-</div>
 {inc:foot}

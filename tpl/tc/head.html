@@ -2,26 +2,68 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title><!-- if($sitetitle) -->
+	<title>
+		<!-- if($sitetitle) -->
 		{:$sitetitle} -
 		<!-- end -->
 		{:$_sys[sitename]}
 		<!-- if($_sys[seotitle]) -->
 		-- {:$_sys[seotitle]}
-		<!-- end --></title> 
-	<meta name="keywords" content="{:$_sys[keywords]},qinggan,phpok">
-	<meta name="description" content="{:$_sys[description]} - PHPOK.COM">
+		<!-- end -->
+	</title> 
+	<meta name="keywords" content="{:$_sys[keywords]}">
+	<meta name="description" content="{:$_sys[description]}">
 	<!-- if($_sys[siteurl]) -->
 	<base href="{:$_sys[siteurl]}" />
 	<!-- end -->
-	<script type="text/javascript"> 
-		var base_file = "{:$_sys[siteurl]}{:HOME_PAGE}"; 
-		var base_url = "{:$_sys[siteurl]}{:$sys_app->url}"; 
-		var base_ctrl = "{:$sys_app->config->c}"; 
-		var base_func = "{:$sys_app->config->f}"; 
-		var base_dir = "{:$sys_app->config->d}"; 
-	</script>
 	<link href="{:$_sys['siteurl']}tpl/tc/css/chuangyistyle_1.css" type="text/css" rel="stylesheet" >
+  	<link href="{:$_sys['siteurl']}tpl/tc/css/nanoscroller.css" type="text/css" rel="stylesheet" >  
 	<script type="text/javascript" src="{:$_sys['siteurl']}tpl/tc/js/jquery-1.9.1.min_1.js"></script>
 	<script type="text/javascript" src="{:$_sys['siteurl']}tpl/tc/js/common_1.js"></script>
 	<script type="text/javascript" src="{:$_sys['siteurl']}tpl/tc/js/jquery.nanoscroller_1.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(".nano").nanoScroller({alwaysVisible: true});
+		});
+	</script>
+</head>
+<body>
+<div class="InWarpBox">
+	<div class="HeaderBox">
+		<div class="HeaderLog">
+			<a href="index.php">
+			<img src="{:$_sys['siteurl']}{:$_sys['logo']}" width="251" height="70" ></a>
+		</div>
+		<div class="TopYuLink">
+			{run:$lang_list=phpok_lang()}
+			{$lang_list AS $key=>$value}
+				<a href="index.php?langid={:$key}">{:$value}</a>
+			{end}
+		</div>
+		{run:$menulist = phpok_menu($id,$cid,$mid)}
+		<ul class="NavUl" id="nav">
+			{$menulist AS $key=>$value}
+			<li>
+				<a href="{:$value['link']}">{:$value['title']}</a>
+				<dl>
+				{$value['sonlist'] AS $k=>$v}
+					<dd>
+						<a href="{:$v['link']}">{:$v['title']}</a>
+					</dd>
+				{end}
+				</dl>
+			</li>
+			{end}
+		</ul>
+		{run:reset($menulist)}
+		<script type="text/javascript">
+			( function(){
+				var $li = $("#nav li"),
+					len = $li.length;
+				$li.eq(len-3).addClass('fst');
+				for ( var i = len - 3; i < len; i ++ ) {
+					$li.eq(i).addClass('righ');
+				}
+			}() );
+		</script>
+	</div>

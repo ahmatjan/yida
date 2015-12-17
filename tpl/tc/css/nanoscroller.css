@@ -42,6 +42,7 @@
   -moz-border-radius    : 5px;
   -webkit-border-radius : 5px;  
   border-radius         : 5px;
+  width                 : 5px !important;
 }
 .nano > .pane > .slider {
   background: #444;
@@ -51,8 +52,15 @@
   -moz-border-radius    : 3px;
   -webkit-border-radius : 3px;  
   border-radius         : 3px;
+  width                 : 5px !important;
 }
 .nano:hover > .pane, .pane.active, .pane.flashed {
   visibility : visible\9; /* Target only IE7 and IE8 with this hack */
   opacity    : 0.99;
 }
+
+
+.nano { height: 443px; font-size:12px; border-radius:10px; }
+.nano .content { padding: 20px; }
+.nano .pane { background: #999898; width: 10px; right: 5px; margin: 5px; }
+.nano .slider { background: #727272; width:10px; }

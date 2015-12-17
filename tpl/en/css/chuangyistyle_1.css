@@ -1,7 +1,7 @@
 @charset "gb2312";
 /* CSS Document */
 
-body { font: normal 100% "Î¢ÈíÑÅºÚ", Arial, Helvetica, sans-serif; color: #232323; background:#FFF url(../images/bg_1.jpg) center top no-repeat; font-size:14px; margin:0; padding:0; -webkit-text-size-adjust: none; height:1000px; overflow:auto;}
+body { font: normal 100% "å¾®è½¯é›…é»‘", Arial, Helvetica, sans-serif; color: #232323; background:#FFF url(../images/bg_1.jpg) center top no-repeat; font-size:14px; margin:0; padding:0; -webkit-text-size-adjust: none; height:1000px; overflow:auto;}
 a { text-decoration: none; color: #3f3a39; border:none; }
 .clear { clear: both; }
 h1, h2, h3, h4,form{ margin: 0; padding: 0; }
@@ -52,7 +52,7 @@ img { border:none; }
 
 .CopyIndex{ width:1084px; margin:0 auto; text-align:center; font-size:12px; font-weight:bold; color:#3f3a39;}
 
-.InWarpBox{ width:100%; height:100%; overflow:auto; }
+.InWarpBox{ width:100%; height:100%; overflow:hidden; }
 .HeaderLog{ width:251px; height:57px; position:absolute; left:50%; margin-left:-127px; top:93px; text-align:center; height:210px; line-height:210px; top:0;}
 .HeaderLog img{ vertical-align:middle;}
 .MainBox{ width:1007px; margin:0 auto; padding:63px 39px 25px;}
@@ -82,6 +82,7 @@ img { border:none; }
 .NewsListBox li a:hover{ color:#4086b1;}
 .PageArea{ text-align:right; font-size:14px; padding-top:30px;}
 .PageArea a{ margin:0 3px;}
+.PageArea span{ color: blue;}
 
 .ChanYeView{}
 .ChanYeViewTop{ padding-bottom:35px;}
@@ -129,5 +130,11 @@ img { border:none; }
 
 .TouZiGuan{ padding-top:100px;}
 
-/*Òş²Ø¹ö¶¯Ìõ ×Ô¼Ó*/
-.pane{ visibility: hidden !important; }
+/*éšè—æ»šåŠ¨æ¡ è‡ªåŠ */
+/*.pane{ visibility: hidden !important; }*/
+
+.IndexFoot { position:absolute; bottom:30px; left:50%; margin-left:-542px; }
+.IndexFixMid{ position:relative; top:50%; margin-top:-275px; margin-top:-302px;}
+.LogoArea{ padding-top:70px;}
+.LogoArea a{ display:block;}
+.CopyIndex a:hover{ color:#aaa;}

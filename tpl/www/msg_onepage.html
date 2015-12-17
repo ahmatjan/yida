@@ -1,98 +1,30 @@
 {inc:head}
-  <link href="{:$_sys['siteurl']}tpl/www/css/nanoscroller.css" type="text/css" rel="stylesheet" >    
-  <style type="text/css">
-    .nano { height: 443px; font-size:12px; border-radius:10px; }
-    .nano .content { padding: 20px; }
-    .nano .pane { background: #999898; width: 10px; right: 5px; margin: 5px; }
-    .nano .slider { background: #727272; width:10px; }
-  </style>
-    <script type="text/javascript">
-    $(function(){
-      $(".nano").nanoScroller({alwaysVisible: true});
-    });
-  </script>
-</head>
-<body>
-<link href="{:$_sys['siteurl']}tpl/www/css/nanoscroller.css" type="text/css" rel="stylesheet" >
-<style type="text/css">
-.nano { height: 443px; font-size:12px; border-radius:10px; }
-.nano .content { padding: 20px; }
-.nano .pane { background: #999898; width: 10px; right: 5px; margin: 5px; }
-.nano .slider { background: #727272; width:10px; }
-</style>
-<script type="text/javascript">
-  $(function(){
-    $(".nano").nanoScroller({alwaysVisible: true});
-  });
-</script>
-<div class="InWarpBox">
-  <div class="HeaderBox">
-    <div class="HeaderLog">
-      <a href="index.php">
-        <img src="{:$_sys['siteurl']}images/logo.png" width="251" height="70" ></a>
-    </div>
-    <div class="TopYuLink">
-      {run:$lang_list=phpok_lang()}
-      {$lang_list AS $key=>$value}
-        <a href="index.php?langid={:$key}">{:$value}</a>
-      {end}
-  </div>
-    {run:$menulist = phpok_menu($id,$cid,$mid)}
-    <ul class="NavUl" id="nav">
-      {$menulist AS $key=>$value}
-      <li>
-        <a href="{:$value['link']}">{:$value['title']}</a>
-        <dl>
-          {$value['sonlist'] AS $k=>$v}
-          <dd>
-            <a href="{:$v['link']}">{:$v['title']}</a>
-          </dd>
-          {end}
-        </dl>
-      </li>
-      {end}
-    </ul>
-    {run:reset($menulist)}
-    <script type="text/javascript">
-      ( function(){
-        var $li = $("#nav li"),
-            len = $li.length;
-        $li.eq(len-3).addClass('fst');
-        for ( var i = len - 3; i < len; i ++ ) {
-          $li.eq(i).addClass('righ');
-        }
-      }() );
-    </script>
-</div>
-<div class="MainBox">
-  <div class="MainTit">
-    {:$rs['title']}
-  </div>
-  <div class="MainMid">
-    <div class="LeftZ">
-      <img src="{:$_sys['siteurl']}images/leftz.png" width="91" height="82" ></div>
-    <div class="RighZ">
-      <img src="{:$_sys['siteurl']}images/righz.png" width="86" height="84" ></div>
-    <div class="MainMidTop">
-      <img src="{:$_sys['siteurl']}images/mainbg_top.png" width="1007" height="55" ></div>
-    <div class="MainMidCen">
-      <div class="nano has-scrollbar">
-        <div class="content">
-          <div style="min-height:500px;font-size:14px; line-height:22px;">
-            {:$rs['content']}
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="MainMidBot">
-      <img src="{:$_sys['siteurl']}images/mainbg_bot.png" width="1007" height="109" ></div>
-  </div>
-</div>
-<div class="CopyIndex">
-    {run: $arr = phpok('copyright')}
-    {:$arr['content']}
-    {run: unset($arr)}
-</div>
-</div>
-</body>
-</html>
+	<div class="MainBox">
+		<div class="MainTit">
+			{:$rs['title']}
+		</div>
+		<div class="MainMid">
+			<div class="LeftZ">
+				<img src="{:$_sys['siteurl']}images/leftz.png" width="91" height="82" >
+			</div>
+			<div class="RighZ">
+				<img src="{:$_sys['siteurl']}images/righz.png" width="86" height="84" >
+			</div>
+			<div class="MainMidTop">
+				<img src="{:$_sys['siteurl']}images/mainbg_top.png" width="1007" height="55" >
+			</div>
+			<div class="MainMidCen">
+				<div class="nano has-scrollbar">
+					<div class="content">
+						<div style="min-height:500px;font-size:14px; line-height:22px;">
+							{:$rs['content']}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="MainMidBot">
+				<img src="{:$_sys['siteurl']}images/mainbg_bot.png" width="1007" height="109" >
+			</div>
+		</div>
+	</div>
+{inc:foot}

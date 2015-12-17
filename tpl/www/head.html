@@ -2,13 +2,15 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title><!-- if($sitetitle) -->
+	<title>
+		<!-- if($sitetitle) -->
 		{:$sitetitle} -
 		<!-- end -->
 		{:$_sys[sitename]}
 		<!-- if($_sys[seotitle]) -->
 		-- {:$_sys[seotitle]}
-		<!-- end --></title> 
+		<!-- end -->
+	</title> 
 	<meta name="keywords" content="{:$_sys[keywords]}">
 	<meta name="description" content="{:$_sys[description]}">
 	<!-- if($_sys[siteurl]) -->
@@ -24,3 +26,44 @@
 			$(".nano").nanoScroller({alwaysVisible: true});
 		});
 	</script>
+</head>
+<body>
+<div class="InWarpBox">
+	<div class="HeaderBox">
+		<div class="HeaderLog">
+			<a href="index.php">
+			<img src="{:$_sys['siteurl']}{:$_sys['logo']}" width="251" height="70" ></a>
+		</div>
+		<div class="TopYuLink">
+			<!-- {run:$lang_list=phpok_lang()}
+			{$lang_list AS $key=>$value}
+				<a href="index.php?langid={:$key}">{:$value}</a>
+			{end} -->
+		</div>
+		{run:$menulist = phpok_menu($id,$cid,$mid)}
+		<ul class="NavUl" id="nav">
+			{$menulist AS $key=>$value}
+			<li>
+				<a href="{:$value['link']}">{:$value['title']}</a>
+				<dl>
+				{$value['sonlist'] AS $k=>$v}
+					<dd>
+						<a href="{:$v['link']}">{:$v['title']}</a>
+					</dd>
+				{end}
+				</dl>
+			</li>
+			{end}
+		</ul>
+		{run:reset($menulist)}
+		<script type="text/javascript">
+			( function(){
+				var $li = $("#nav li"),
+					len = $li.length;
+				$li.eq(len-3).addClass('fst');
+				for ( var i = len - 3; i < len; i ++ ) {
+					$li.eq(i).addClass('righ');
+				}
+			}() );
+		</script>
+	</div>
