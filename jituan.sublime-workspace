@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-radius"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"text",
 				"text-decoration"
 			],
@@ -58,10 +74,6 @@
 			[
 				"no",
 				"nodeType"
-			],
-			[
-				"border",
-				"border"
 			],
 			[
 				"margin",
@@ -218,10 +230,6 @@
 			[
 				"moz",
 				"-moz-binding: 〔property〕"
-			],
-			[
-				"back",
-				"background-position"
 			],
 			[
 				"s",
@@ -506,27 +514,11 @@
 			[
 				"backg",
 				"background-repeat"
-			],
-			[
-				"ti",
-				"times"
-			],
-			[
-				"po",
-				"position"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"contents": "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\">\n<head>\n	<meta http-equiv=\"Content-Type\" content=\"text/html;charset=UTF-8\">\n	<title>Document</title>\n</head>\n<body>\n	<div>\n		span\n	</div>\n</body>\n</html>",
-			"settings":
-			{
-				"buffer_size": 332,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -539,28 +531,48 @@
 				"Set Syntax: HTML"
 			],
 			[
-				"Package Control: ",
+				"Package Control: list",
 				"Package Control: List Packages"
-			],
-			[
-				"Package Controluse",
-				"Preferences: Package Control Settings – User"
 			],
 			[
 				"insta",
 				"Package Control: Install Package"
 			],
 			[
-				"inst",
-				"Package Control: Install Package"
+				"Package Controluser",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"user ",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
 			],
 			[
 				"ssjs",
 				"Set Syntax: JavaScript"
 			],
 			[
-				"Package Controluser",
+				"Package Controluse",
 				"Preferences: Package Control Settings – User"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
 			],
 			[
 				"Package Controlusr",
@@ -651,7 +663,7 @@
 	},
 	"console":
 	{
-		"height": 181.0,
+		"height": 222.0,
 		"history":
 		[
 		]
@@ -667,15 +679,44 @@
 	},
 	"file_history":
 	[
+		"/F/wamps/www/project/jituan.com/tpl/www/msg_pro.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/list_pro.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/css/chuangyistyle.css",
+		"/F/wamps/www/project/jituan.com/tpl/www/index.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/head.html",
+		"/F/wamps/www/project/jituan.com/tpl/en/head.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/test.html",
+		"/F/wamps/www/project/jituan.com/tpl/www/list_article.html",
+		"/F/wamps/www/nav.html",
+		"/F/wamps/www/project/jituan.com/app/admin/view/ctrl/set.html",
+		"/F/wamps/www/project/jituan.com/data/admin_tplc/ctrl-/1_set.php",
+		"/F/wamps/www/project/jituan.com/app/admin/control/ctrl.php",
+		"/F/wamps/www/project/jituan.com/app/admin/view/cate/set.html",
+		"/F/wamps/www/1.html",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20131201192715/Emmet/emmet/snippets.json",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20150113080443/Emmet/emmet/snippets.json",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20131201192715/Emmet/README.md",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20131201192715/Emmet/Emmet.tmLanguage",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20131201192715/Emmet/emmet-plugin.py",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20131201192715/Emmet/Preferences.sublime-settings",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20151217152501/Emmet Css Snippets/Completions.sublime-completions",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20151217152501/Emmet Css Snippets/Sass/Table/cpsb.sublime-snippet",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20151217152501/Emmet Css Snippets/Sass/Generated Content/ctnoq.sublime-snippet",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20151217152501/Emmet Css Snippets/package-metadata.json",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Backup/20151217152501/Emmet Css Snippets/messages.json",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Cache/CSS/CSS.tmLanguage.cache",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/ConvertToUTF8/packages.json",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/Emmet.sublime-settings",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/PyV8/win32-p3/config.json",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/Emmet.sublime-package",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/Package Control.sublime-settings",
+		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/SublimeLinter.sublime-settings",
 		"/F/wamps/www/project/jituan.com/tpl/www/css/chuangyistyle_1.css",
 		"/E/软件安装包/php/PHP必备程序/Sublime Text3/HTML/sublimelinter.version",
 		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Packages/JavaScript.sublime-package",
-		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/User/Package Control.sublime-settings",
 		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/Emmet Css Snippets/package-metadata.json",
 		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/Emmet Css Snippets/messages.json",
-		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Installed Packages/Emmet.sublime-package",
 		"/E/软件安装包/php/PHP必备程序/Sublime Text3/Data/Packages/HTML/HTML.tmLanguage",
-		"/F/wamps/www/project/jituan.com/tpl/www/index.html",
 		"/F/wamps/www/project/jituan.com/libs/xheditor/xheditor_skin/if.css",
 		"/F/wamps/www/project/jituan.com/tpl/www/css/nanoscroller.css",
 		"/F/wamps/www/project/jituan.com/app/admin/view/list/set.html",
@@ -686,12 +727,9 @@
 		"/F/wamps/www/project/jituan.com/libs/xheditor/xheditor.js",
 		"/F/wamps/www/project/jituan.com/libs/xheditor/mini_edit.html",
 		"/F/wamps/www/project/jituan.com/app/admin/view/list/list.html",
-		"/F/wamps/www/project/jituan.com/tpl/www/css/chuangyistyle.css",
-		"/F/wamps/www/project/jituan.com/tpl/www/head.html",
 		"/F/wamps/www/project/jituan.com/app/database.config.php",
 		"/F/wamps/www/project/jituan.com/tpl/en/msg_pro.html",
 		"/F/wamps/www/project/jituan.com/tpl/en/foot.html",
-		"/F/wamps/www/project/jituan.com/tpl/en/head.html",
 		"/F/wamps/www/project/jituan.com/tpl/en/index.html",
 		"/F/wamps/www/project/jituan.com/tpl/en/list_article.html",
 		"/F/wamps/www/project/jituan.com/tpl/en/list_pro.html",
@@ -709,11 +747,8 @@
 		"/F/wamps/www/project/jituan.com/tpl/www/error.html",
 		"/F/wamps/www/project/jituan.com/tpl/tc/error.html",
 		"/F/wamps/www/project/jituan.com/tpl/en/error.html",
-		"/F/wamps/www/project/jituan.com/tpl/www/msg_pro.html",
 		"/F/wamps/www/project/jituan.com/tpl/www/msg_onepage.html",
 		"/F/wamps/www/project/jituan.com/tpl/www/foot.html",
-		"/F/wamps/www/project/jituan.com/tpl/www/list_article.html",
-		"/F/wamps/www/project/jituan.com/tpl/www/list_pro.html",
 		"/F/wamps/www/project/jituan.com/tpl/www/msg_article.html",
 		"/D/谷歌下载/bootstrap-3.3.5-dist/css/bootstrap-theme.css",
 		"/D/谷歌下载/bootstrap-3.3.5-dist/css/bootstrap.css",
@@ -738,10 +773,6 @@
 		"/F/wamps/www/project/jituan.com/tpl/www/self/open/header.html",
 		"/F/wamps/www/project/jituan.com/app/admin/view/header.html",
 		"/F/wamps/www/project/jituan.com/app/admin/view/left.html",
-		"/F/wamps/www/project/jituan.com/app/admin/control/ctrl.php",
-		"/F/wamps/www/project/jituan.com/data/admin_tplc/ctrl-/1_set.php",
-		"/F/wamps/www/project/jituan.com/app/admin/view/cate/set.html",
-		"/F/wamps/www/project/jituan.com/app/admin/view/ctrl/set.html",
 		"/F/wamps/www/project/jituan.com/app/www/control/list.php",
 		"/F/wamps/www/project/jituan.com/data/admin_tplc/cate-/1_set.php",
 		"/F/wamps/www/project/e-techedu/tpl/www/head.html",
@@ -775,30 +806,11 @@
 		"/F/wamps/www/project/abc/tpl/www/js/language_1.js",
 		"/F/wamps/www/project/abc/tpl/www/css/chuangyistyle.css",
 		"/F/wamps/www/project/abc/tpl/www/css/chuangyistyle_1.css",
-		"/F/wamps/www/project/abc/tpl/www/css/nanoscroller.css",
-		"/F/wamps/www/project/abc/tpl/www/chanye_x.html",
-		"/F/wamps/www/project/abc/tpl/www/foot.html",
-		"/F/wamps/www/project/abc/tpl/www/head.html",
-		"/F/wamps/www/project/abc/tpl/www/index.html",
-		"/F/wamps/www/project/abc/tpl/www/list_article.html",
-		"/F/wamps/www/project/仿站小工具/www.ntmediabj.com/index.html",
-		"/F/wamps/www/project/abc/tpl/www/jiaru.html",
-		"/C/Users/Administrator/AppData/Local/Temp/Rar$DIa0.633/version.php",
-		"/F/wamps/www/project/abc/libs/model.sys.php",
-		"/F/wamps/www/project/jituan.com/version.php",
-		"/F/wamps/www/project/jituan.com/app/www/model.config.php",
-		"/F/wamps/www/project/jituan.com/app/www/config.inc.php",
-		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/js1.html",
-		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/js2.html",
-		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/作业/100个随机1-1000内不重复的数字.html",
-		"/D/wengdo/js特效封装.js",
-		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/IT培训资料库淘宝店.html",
-		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/12-随机函数.html",
-		"/D/妙味课堂/02：2014javascript初级/第12课：数组随机、数组去重/lesson12/14-reverse方法.html"
+		"/F/wamps/www/project/abc/tpl/www/css/nanoscroller.css"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -821,6 +833,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"148px",
+			"content",
+			"$plist",
+			"run:reset",
+			"reset",
+			"图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片图片",
+			"不支持缩略图的模块，此参数无效",
+			"input",
+			"html",
+			"span",
 			".xheditor",
 			"xheditor",
 			"spellcheck=\"0\"",
@@ -938,17 +960,7 @@
 			"缩略图",
 			"javascript:;",
 			" .ui-link-img:hover",
-			".ui-items",
-			"ul ",
-			"a",
-			"ob_start",
-			"ob_start()",
-			"$component",
-			"WE CAN DO IT JUST THINK",
-			"ini_set\\(.*display_errors",
-			"33.33px",
-			"parseDsn",
-			"function C"
+			".ui-items"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1060,98 +1072,14 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 332,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								308,
-								308
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"default_dir": "F:\\wamps\\www\\project\\jituan.com",
-							"encoding_helper_encoding": "",
-							"is_xml": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1191,7 +1119,7 @@
 	"project": "jituan.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":

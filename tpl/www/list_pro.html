@@ -14,25 +14,68 @@
                 <img src="{:$_sys['siteurl']}tpl/www/images/mainbg_top.png" width="1007" height="55" >
             </div>
             <div class="MainMidCen">
-                <div class="NewsListBox">
-                    <ul>
-                        {$rslist AS $value}
-                        <li>
-                            <a href="{:msg_url($value)}">{:$value['title']}</a>
-                        </li>
-                        {end}
-                    </ul>
-                    {if(!$rslist)}
-                    暂无该类别的信息
-                    {end}
-                    <div class="PageArea">
-                        {$pagelist AS $key => $value}
-                            {if($value[status])}
-                                <span>{:$value['name']}</span>
-                            {else}
-                                <a href="{:$value['url']}" title="{:$value['name']}">{:$value['name']}</a>
+                <div class="nano has-scrollbar">
+                    <div class="content">
+                        <style>
+                            .cate-item{
+                                overflow: hidden;
+                            }
+                            .cate-item h3{
+                                margin: 16px 0 37px 0;
+                                height: 29px;
+                                line-height: 29px; 
+                                text-indent: 13px;
+                                font-size: 25px;
+                                font-weight: normal;
+                                color: #585350;
+                                background: url(images/title-icon.png) no-repeat left top;
+                                width: 2000px;
+                            }
+                            .cate-item h3:after{
+                                content: "";
+                                display: inline-block;
+                                width: 827px;
+                                height: 1px;
+                                border-bottom: 1px solid #c8c7c7;
+                                margin: 8px 20px;
+                                background-color: #a2a5a4;
+                            }
+                            .cate-item .art-item{
+                                width: 148px;
+                                height: 148px;
+                                float: left;
+                                margin: 0 57px 42px 0;
+                                font-size: 0;
+                                overflow: hidden;
+                                border-radius: 5px;
+                            }
+                            .cate-item .art-item a{
+                                display: block;
+                                background: #8c8c8c;
+                            }
+                            .cate-item .art-item a:hover{
+                                background: #97187b;
+                            }
+                        </style>
+                        <div style="min-height:500px;font-size:14px; line-height:22px;">
+                            {run:$arr=phpok_catelist($cid);$clist=$arr['rslist'];}
+                            {$clist AS $value}
+                                {run:$arr1=phpok_c_list($value['identifier']);$plist=$arr1['rslist']}
+                                <div class="cate-item">
+                                    <h3 style="text-transform:uppercase;">{:$value['cate_name']} {:$value['identifier']}</h3>
+                                    {$plist AS $value}
+                                    <div class="art-item">
+                                        <a href ="{:msg_url($value)}">
+                                            <img src="{:$value['picture']}" alt="{:$value['title']}">
+                                            {:$value['title']}
+                                        </a>
+                                    </div>
+                                    {end}
+                                    <div class="clear"></div>
+                                </div>
                             {end}
-                        {end}
+                            {run:unset($arr,$clist,$arr1,$plist)}
+                        </div>
                     </div>
                 </div>
             </div>

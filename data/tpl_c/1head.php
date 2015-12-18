@@ -55,7 +55,7 @@
 			</li>
 			<?php } ?>
 		</ul>
-		<?php reset($menulist);?>
+		<?php unset($menulist);?>
 		<script type="text/javascript">
 			( function(){
 				var $li = $("#nav li"),
